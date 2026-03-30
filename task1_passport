@@ -1,10 +1,10 @@
-student_name = "Маркова Полина"
-group_number = 502
-project_name = "ЖК Jin"  
-floors = 45
-height = 4 
-is_residential = True
-construction_year = 2003
+student_name = "Маркова Полина" #ФИО
+group_number = 502 #Номер группы
+project_name = "ЖК Jin" #Название объекта
+floors = 45 #Этажность
+height = 4 #Высота
+is_residential = True #Тип
+construction_year = 2003 #год постройки
 
 total_height = floors * height  
 
