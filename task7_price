@@ -7,12 +7,15 @@ materials = {
 }
 print ("Список:", materials)
 
+#Обновляем список:
 materials["Кирпич"] = 1100
 materials["Дерево"] = 900
 print ("Обновленный список:", materials)
 
+#Скидка
 materials["Кирпич"] *= 1.10
 
+#Удаляем
 del materials["Стекло"]
 
 print("Итог:", materials)
