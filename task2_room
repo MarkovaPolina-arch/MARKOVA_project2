@@ -1,10 +1,10 @@
-length = 7
-width = 3.5
-height = 3.2
-S_floor = length * width
-S_wall = length * height * 2 + width * height * 2
-V = length * width * height
-Cost = S_wall * 125
+length = 7 #Длинна
+width = 3.5 #Ширина
+height = 3.2 #Высота
+S_floor = length * width #Площадь пола
+S_wall = length * height * 2 + width * height * 2 #Площадь стен
+V = length * width * height #Объем
+Cost = S_wall * 125 #Стоимость
 print(f"== ПАРАМЕТРЫ ПОМЕЩЕНИЯ ==\n"
       f"Длинна: {length}\n"
       f"Ширина: {width}\n"
